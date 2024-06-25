@@ -3,10 +3,10 @@
 # Creator: Anubhab Ghosh, Feb 2024.
 
 # The python kernel version e.g. to run on python 3.8 version use: python3.8
-PYTHON="python3.8"
+PYTHON="python"
 
 # The number of i.i.d. trajectories each of length T that constitute the training data
-N=1000
+N=100
 
 # Length of each such training data trajectory, default it is set to T=1000
 T=100
@@ -40,7 +40,7 @@ sigma_e2_dB=-10.0
 # RNN model type (e.g. GRU / LSTM)
 rnn_model_type="gru"
 
-for smnr_dB in -10.0 0.0 10.0 20.0 30.0
+for smnr_dB in 30.0
 do
 	${PYTHON} ${script_name} \
 	--mode train \

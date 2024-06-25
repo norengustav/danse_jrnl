@@ -1,0 +1,8 @@
+numpy == 1.20.3
+matplotlib == 3.4.3
+scipy == 1.7.3
+scikit-learn == 1.0.1
+filterpy == 1.4.5
+tikzplotlib
+torch == 1.7.1
+parse
